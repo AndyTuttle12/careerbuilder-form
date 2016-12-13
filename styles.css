@@ -1,0 +1,75 @@
+#page {
+	background-color: #F4F4F4;
+	box-sizing: border-box;
+	padding-left: .625em;
+	padding-right: .625em;
+	font-family: helvetica;
+}
+
+.required-field:before {
+    content: "* ";
+    color: #FE453A;
+}
+
+input.error, select.error {
+    border: 2px solid #FE453A;
+}
+
+.error{
+	font-size: 14px;
+	color: #fe453a;
+}
+
+#require{
+	font-style: italic;
+	color: #787878;
+}
+
+.container{
+	background-color: #fff;
+	border: 2px solid #D8D8D8;
+	max-width: 60%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.container h1{
+	font-size: 32px;
+	font-weight: 400;
+}
+
+.container p{
+	font-size: 16px;
+}
+
+.container a {
+	color: #09A0DB;
+}
+
+.form-group{
+	font-size: 16px;
+}
+
+.form-control{
+	height: 40px;
+	border-radius: 2px;
+	padding: 0 10px 0 10px;
+}
+
+#email-prefs{
+	font-weight: bold;
+}
+
+.btn {
+	background-color: #85CE3F;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	margin: 20px 0px 30px 10px;
+	width: 50%;
+	height: 40px;
+}
+
+.valid{
+	border: 2px solid #85CE3F;
+}

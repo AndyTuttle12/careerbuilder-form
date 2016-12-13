@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CareerBuilder Contact Form</title>
+
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body id="page">
+
+<form class="container sign-up-form">
+	<div class="row">
+		<div class="col-sm-12">
+			<h1>Sign Up</h1>
+			<p>Already have an account? <a href="https://www.careerbuilder.com/user/sign-in">Sign in here</a></p>
+			<hr>
+			<p>Registration for <a href="https://employer.careerbuilder.com/share/register.aspx?usertype=UTEMPR&next=http%253a%252f%252femployer.careerbuilder.com%252fjobposter%252fmycb.aspx&_ga=1.64280941.353024723.1481575293">employer or staffing agency</a></p>
+			<p id="require" class="required-field">Required Fields</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-12 form-group">
+			<label class="required-field">First Name</label>
+			<input type="text" name="first_name" id="first_name" class="required form-control first_name">
+			<div class="error first_name-error"></div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-12 form-group">
+		<label class="required-field">Last Name</label>
+			<input type="text" name="last_name" id="last_name" class="required form-control last_name">
+			<div class="error last_name-error"></div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-12 form-group">
+		<label class="required-field">Email</label>
+			<input type="email" name="email" id="email" class="required form-control ">
+			<div class="error email-error"></div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-12 form-group">
+		<label class="required-field">Zip</label>
+			<input type="text" name="zip" id="zip" class="required form-control">
+			<div class="error zip-error"></div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-12 form-group">
+		<label class="required-field">Password</label>
+			<input type="password" name="password" id="password" class="required form-control">
+			<div class="error password-error"></div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-12 form-group">
+		<label class="required-field">Confirm Password</label>
+			<input type="password" name="confirm_password" id="confirm_password" class="required form-control">
+			<div class="error confirm_password-error"></div>
+		</div>
+	</div>
+	<div class="row">
+
+		<div class="col-sm-12 form-group">
+		<p id="email-prefs">Email Preferences</p>
+		<input type="checkbox" class="" value="true" checked="checked">
+		<label class="check-box"> Job Reccomendations</label>
+		<p>based on your activity</p>
+		<input type="checkbox" class="" value="true" checked="checked">
+		<label class="check-box"> Resume and Application Activity Alerts</label>
+		<p>when your application is viewed</p>
+			
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-12">
+			<button name="button" type="submit" class="col-sm-6 btn form-control" id="sign-up">Sign up</button>
+		</div>
+	</div>
+</form>
+
+
+
+
+
+<script src="scripts.js" type="text/javascript"></script>
+</body>
+</html>
