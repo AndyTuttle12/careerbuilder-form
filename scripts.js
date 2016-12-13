@@ -21,6 +21,23 @@ $(document).ready(function(){
 			}
 		});
 
+		// function validateEmail(email) {
+  //   		var re = /\S+@\S+\.\S+/;
+  //   		return re.test(email);
+		// }
+
+		// console.log(validateEmail($('email')));
+
+
+		// if(validateEmail($('email').val())){
+		// 	$('email').addClass('valid');
+		// }else{
+		// 	$('email').addClass('error');
+		// 	$('email').html('Please enter a valid email address');
+		// }
+
+		var passwordRE = "^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&])[A-Za-z\d$@$!%*?&]{8,15}";
+		
 		var password = $('#password').val();
 		var password2 = $('#confirm_password').val();
 		var numberFound = false;
